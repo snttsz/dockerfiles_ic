@@ -10,6 +10,5 @@ fi
 else
 core="${1}"
 fi
-echo ${core}
 docker run --rm -it -d -e QTDCORE=${core} --volume="$PWD"/bahiart:/home/bahiart:rw --volume="$PWD"/libsetplay:/home/libsetplay:rw --name build builder
 docker logs --follow build
