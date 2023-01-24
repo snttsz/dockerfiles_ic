@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# -lt 1 ]; then
-echo Quantidade de cores a ser utilizada:
+echo Quantidade de cores do processador a serem utilizados:
 read core
 if [ ! ${core} ]; then
 	echo Quantidade de cores não definida. Serão utilizados 8 por padrão.
