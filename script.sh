@@ -5,7 +5,7 @@ read core
 if [ ! ${core} ]; then
 	echo Quantidade de cores não definida. Serão utilizados 8 por padrão.
 	core=8
-	sleep 2
+	sleep 1
 fi
 else
 core="${1}"
