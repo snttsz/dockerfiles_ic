@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ENV QTDCORE=7
+ENV QTDCORE=8
 COPY ./entp.sh /
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
